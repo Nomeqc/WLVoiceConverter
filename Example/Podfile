@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLVoiceConverter_Example' do
+  pod 'WLVoiceConverter', :path => '../'
+
+  target 'WLVoiceConverter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
