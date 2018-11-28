@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0453725298B286AB1D106F01403C2340 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */; };
+		0CDE0C36F95BAA09AB721082B0641419 /* Pods-WLVoiceConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCEF4643AB955B8047AC9BEB5BBE612 /* Pods-WLVoiceConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3F9EBE277DBA6EA33AFAEA66DED345 /* Pods-WLVoiceConverter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96394FF0E2B0FF34724ACA8066FF7681 /* Pods-WLVoiceConverter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27406B02730EBF2F6D0F284505B602BA /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D761BCB4998BEF1F1C9BF0971D314B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		3D42A26B32C05AFF4013878C27138105 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = 04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */; };
+		423B70073FB8F4F82547EF3C686FF702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		54423F84FAA049990B0A14A45D4C7FBB /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A175FA552A89C70122E83DE40B0FB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		6B719C49A64B164443B1971FE9B4D8B6 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */; };
+		6F456DD916E465FDA248DEE54C04ABE8 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC96E166594673FACF32939C8B5F9AD /* WLVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */; };
+		91E18FE6D222964CDAFF3E4E649AA7F2 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A39CEC652F97A19A1190EA3ED4E97D1 /* WLVoiceConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F9E43AF7D2E9CCF956A55899D3A83E /* WLVoiceConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */; };
+		BB8102DBE50C3952A2E77B0432DBDE19 /* WLVoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEA0110B6E1207925A708A30C05E880 /* Pods-WLVoiceConverter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2293248527CA5F26C7C7C96072CB882 /* Pods-WLVoiceConverter_Tests-dummy.m */; };
+		D1AE8E9F35900AF13ECE9AF664D76B38 /* Pods-WLVoiceConverter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2FFA4F518690C8C5DD1B836B389C1 /* Pods-WLVoiceConverter_Example-dummy.m */; };
+		E151929A1F0A6DE93E1AA6B6317EDC72 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87536CE596441938F8AA09F0647A62BF /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3CC906B757E7591122FA5CC0DA9C38A /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52A67245D5EF2EC657C753A450BBD67 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E430CB30714F98BD29F17F35E58CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8272C24DB842DC758976264560B0AC7F;
+			remoteInfo = "Pods-WLVoiceConverter_Example";
+		};
+		DD10A23CD106AFD609E70EC2F4FCA52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0086548DFAF6C740B1255E27E0DB2B;
+			remoteInfo = WLVoiceConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		04D6F68E96A17FF922C2C9E7FC8324AF /* Pods-WLVoiceConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLVoiceConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EFFE1F2B1429D520351FB808362036C /* Pods-WLVoiceConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E6F14512DB983D226695C76BA796ED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		4DC48FA6AB8BF68535ACC4015A20E624 /* Pods-WLVoiceConverter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		55C1AD80001E33673C57699453C60C9B /* Pods-WLVoiceConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
+		61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLVoiceConverter-dummy.m"; sourceTree = "<group>"; };
+		6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		6EE89E4206E069F4F8545D26E1F0933C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
+		7A606CE2A3297E66EB3781FCEF5D3AC7 /* Pods_WLVoiceConverter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLVoiceConverter_Example.framework; path = "Pods-WLVoiceConverter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCEF4643AB955B8047AC9BEB5BBE612 /* Pods-WLVoiceConverter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLVoiceConverter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86F3A9D8F7D4BD50D223FA5715B36380 /* Pods_WLVoiceConverter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLVoiceConverter_Tests.framework; path = "Pods-WLVoiceConverter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87536CE596441938F8AA09F0647A62BF /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		8B70390193BA2A464E3EDE9187E3DB59 /* WLVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLVoiceConverter.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953E36F69C937BB4A1212EF3B5ABA65A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96394FF0E2B0FF34724ACA8066FF7681 /* Pods-WLVoiceConverter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLVoiceConverter_Example-umbrella.h"; sourceTree = "<group>"; };
+		98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		A0D7170E68F8B827FD106F837416E9BD /* Pods-WLVoiceConverter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B2293248527CA5F26C7C7C96072CB882 /* Pods-WLVoiceConverter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLVoiceConverter_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4E096239C40FA282634BDC21646EDCD /* Pods-WLVoiceConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLVoiceConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WLVoiceConverter.mm; path = WLVoiceConverter/Classes/WLVoiceConverter.mm; sourceTree = "<group>"; };
+		C358CED306D1A14A880FB33D4C6FC306 /* Pods-WLVoiceConverter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Tests-resources.sh"; sourceTree = "<group>"; };
+		C67D7C002DD31825442DC5D18F006E71 /* Pods-WLVoiceConverter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVoiceConverter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA1FAC2EE4A278CAB5325332A13B1C92 /* Pods-WLVoiceConverter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFB21AAD9639871C5FFBD519864FD23C /* Pods-WLVoiceConverter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLVoiceConverter_Tests.modulemap"; sourceTree = "<group>"; };
+		D2FAC70A57197DA0F1FB7FD76165EACC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7683D0CBD7C37A24225BD7139C1B1E5 /* Pods-WLVoiceConverter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVoiceConverter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLVoiceConverter.h; path = WLVoiceConverter/Classes/WLVoiceConverter.h; sourceTree = "<group>"; };
+		E610288D2260C118FCF5BB9B0FD5B4BB /* WLVoiceConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLVoiceConverter.framework; path = WLVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7AF48F813FB584B1566AB2B7603761 /* Pods-WLVoiceConverter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLVoiceConverter_Example.modulemap"; sourceTree = "<group>"; };
+		EAC2FFA4F518690C8C5DD1B836B389C1 /* Pods-WLVoiceConverter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLVoiceConverter_Example-dummy.m"; sourceTree = "<group>"; };
+		EAFC65E418ED706778A5F2637E1642A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64ACE48648AF83C2E1D39AC8774C034 /* WLVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
+		F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLVoiceConverter.xcconfig; sourceTree = "<group>"; };
+		F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		FBC5E6ADF4DC91B113FAAC27245DD0B2 /* Pods-WLVoiceConverter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FDEB08CE6247C0611C94B020414D7D81 /* Pods-WLVoiceConverter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Example-resources.sh"; sourceTree = "<group>"; };
+		FEDEB8B8AD9F9E01BF36EC88D5631A96 /* WLVoiceConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLVoiceConverter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031CE4E672A0935C220ED7B702B24CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423B70073FB8F4F82547EF3C686FF702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5461D6346C4A49F4928D0F7CE574A57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A175FA552A89C70122E83DE40B0FB0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A8E061DB9079691E466437E82F8F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D761BCB4998BEF1F1C9BF0971D314B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0021EBDB770F3BF6F8FBC80B561C41C0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F14512DB983D226695C76BA796ED6 /* LICENSE */,
+				953E36F69C937BB4A1212EF3B5ABA65A /* README.md */,
+				FEDEB8B8AD9F9E01BF36EC88D5631A96 /* WLVoiceConverter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1398105059AE338A8A3196C7930D993B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE89E4206E069F4F8545D26E1F0933C /* Info.plist */,
+				8B70390193BA2A464E3EDE9187E3DB59 /* WLVoiceConverter.modulemap */,
+				F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */,
+				61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */,
+				F64ACE48648AF83C2E1D39AC8774C034 /* WLVoiceConverter-prefix.pch */,
+				714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLVoiceConverter";
+			sourceTree = "<group>";
+		};
+		2ECB7E0B0C2C0184969DD8A12AE99A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3964A439EF0434900E750EA0F5DFCFE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51B1E216B172626B8913A6709966C416 /* WLVoiceConverter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F121BADBA62E1E758C8C3D4EEAD1733 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				587303408FA9A863E59D004B21DCA9B7 /* opencore-amrnb */,
+				687DC00A90391F332F2E46D236C42DB8 /* opencore-amrwb */,
+			);
+			name = include;
+			path = WLVoiceConverter/Classes/include;
+			sourceTree = "<group>";
+		};
+		51B1E216B172626B8913A6709966C416 /* WLVoiceConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */,
+				B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */,
+				9E22EDB89BE2286F55A3AFD2467F231A /* amrwapper */,
+				2ECB7E0B0C2C0184969DD8A12AE99A08 /* Frameworks */,
+				4F121BADBA62E1E758C8C3D4EEAD1733 /* include */,
+				EF42245F78BF81BA4093244BBA7AB62C /* lib */,
+				0021EBDB770F3BF6F8FBC80B561C41C0 /* Pod */,
+				1398105059AE338A8A3196C7930D993B /* Support Files */,
+			);
+			name = WLVoiceConverter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		587303408FA9A863E59D004B21DCA9B7 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */,
+				87536CE596441938F8AA09F0647A62BF /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		5F030A74BC1016E093E4CD52A620EEBF /* Pods-WLVoiceConverter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D2FAC70A57197DA0F1FB7FD76165EACC /* Info.plist */,
+				EA7AF48F813FB584B1566AB2B7603761 /* Pods-WLVoiceConverter_Example.modulemap */,
+				04D6F68E96A17FF922C2C9E7FC8324AF /* Pods-WLVoiceConverter_Example-acknowledgements.markdown */,
+				D7683D0CBD7C37A24225BD7139C1B1E5 /* Pods-WLVoiceConverter_Example-acknowledgements.plist */,
+				EAC2FFA4F518690C8C5DD1B836B389C1 /* Pods-WLVoiceConverter_Example-dummy.m */,
+				A0D7170E68F8B827FD106F837416E9BD /* Pods-WLVoiceConverter_Example-frameworks.sh */,
+				FDEB08CE6247C0611C94B020414D7D81 /* Pods-WLVoiceConverter_Example-resources.sh */,
+				96394FF0E2B0FF34724ACA8066FF7681 /* Pods-WLVoiceConverter_Example-umbrella.h */,
+				0EFFE1F2B1429D520351FB808362036C /* Pods-WLVoiceConverter_Example.debug.xcconfig */,
+				CA1FAC2EE4A278CAB5325332A13B1C92 /* Pods-WLVoiceConverter_Example.release.xcconfig */,
+			);
+			name = "Pods-WLVoiceConverter_Example";
+			path = "Target Support Files/Pods-WLVoiceConverter_Example";
+			sourceTree = "<group>";
+		};
+		5F24B744D202D2393FCA1B0D519773A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A606CE2A3297E66EB3781FCEF5D3AC7 /* Pods_WLVoiceConverter_Example.framework */,
+				86F3A9D8F7D4BD50D223FA5715B36380 /* Pods_WLVoiceConverter_Tests.framework */,
+				E610288D2260C118FCF5BB9B0FD5B4BB /* WLVoiceConverter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687DC00A90391F332F2E46D236C42DB8 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */,
+				3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		6F0A82F1C6C0CB80701B39AFF18CFA66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F030A74BC1016E093E4CD52A620EEBF /* Pods-WLVoiceConverter_Example */,
+				7D32576FDA4CD7EFC6D296808ED6F75E /* Pods-WLVoiceConverter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D32576FDA4CD7EFC6D296808ED6F75E /* Pods-WLVoiceConverter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC65E418ED706778A5F2637E1642A2 /* Info.plist */,
+				CFB21AAD9639871C5FFBD519864FD23C /* Pods-WLVoiceConverter_Tests.modulemap */,
+				B4E096239C40FA282634BDC21646EDCD /* Pods-WLVoiceConverter_Tests-acknowledgements.markdown */,
+				C67D7C002DD31825442DC5D18F006E71 /* Pods-WLVoiceConverter_Tests-acknowledgements.plist */,
+				B2293248527CA5F26C7C7C96072CB882 /* Pods-WLVoiceConverter_Tests-dummy.m */,
+				FBC5E6ADF4DC91B113FAAC27245DD0B2 /* Pods-WLVoiceConverter_Tests-frameworks.sh */,
+				C358CED306D1A14A880FB33D4C6FC306 /* Pods-WLVoiceConverter_Tests-resources.sh */,
+				7FCEF4643AB955B8047AC9BEB5BBE612 /* Pods-WLVoiceConverter_Tests-umbrella.h */,
+				55C1AD80001E33673C57699453C60C9B /* Pods-WLVoiceConverter_Tests.debug.xcconfig */,
+				4DC48FA6AB8BF68535ACC4015A20E624 /* Pods-WLVoiceConverter_Tests.release.xcconfig */,
+			);
+			name = "Pods-WLVoiceConverter_Tests";
+			path = "Target Support Files/Pods-WLVoiceConverter_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3964A439EF0434900E750EA0F5DFCFE1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F24B744D202D2393FCA1B0D519773A5 /* Products */,
+				6F0A82F1C6C0CB80701B39AFF18CFA66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E22EDB89BE2286F55A3AFD2467F231A /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */,
+				F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */,
+				2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */,
+				588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */,
+			);
+			name = amrwapper;
+			path = WLVoiceConverter/Classes/amrwapper;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF42245F78BF81BA4093244BBA7AB62C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */,
+				6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */,
+			);
+			name = lib;
+			path = WLVoiceConverter/Classes/lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		150E8DB918811FD6CF608BC16678CE46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3F9EBE277DBA6EA33AFAEA66DED345 /* Pods-WLVoiceConverter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326B5F400FF79DB91023A3F5130FD307 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F456DD916E465FDA248DEE54C04ABE8 /* amrFileCodec.h in Headers */,
+				E3CC906B757E7591122FA5CC0DA9C38A /* dec_if.h in Headers */,
+				54423F84FAA049990B0A14A45D4C7FBB /* if_rom.h in Headers */,
+				27406B02730EBF2F6D0F284505B602BA /* interf_dec.h in Headers */,
+				E151929A1F0A6DE93E1AA6B6317EDC72 /* interf_enc.h in Headers */,
+				91E18FE6D222964CDAFF3E4E649AA7F2 /* wav.h in Headers */,
+				9A39CEC652F97A19A1190EA3ED4E97D1 /* WLVoiceConverter-umbrella.h in Headers */,
+				BB8102DBE50C3952A2E77B0432DBDE19 /* WLVoiceConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D6039E5538A5F395D4D5CE8AEF476E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDE0C36F95BAA09AB721082B0641419 /* Pods-WLVoiceConverter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8272C24DB842DC758976264560B0AC7F /* Pods-WLVoiceConverter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B4C93E84CA30AA897B420530FB9E4 /* Build configuration list for PBXNativeTarget "Pods-WLVoiceConverter_Example" */;
+			buildPhases = (
+				150E8DB918811FD6CF608BC16678CE46 /* Headers */,
+				48957B5F49A5C5249484522168CA8A3E /* Sources */,
+				5461D6346C4A49F4928D0F7CE574A57D /* Frameworks */,
+				B121EEC275FD34A61A606CCD364A1551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C68DE7DCE045F12B972F1087228E60C /* PBXTargetDependency */,
+			);
+			name = "Pods-WLVoiceConverter_Example";
+			productName = "Pods-WLVoiceConverter_Example";
+			productReference = 7A606CE2A3297E66EB3781FCEF5D3AC7 /* Pods_WLVoiceConverter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B52028F79AF930301AEEE93CEE5C809F /* Pods-WLVoiceConverter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70467B991613AE22F539FE43EFF75C8 /* Build configuration list for PBXNativeTarget "Pods-WLVoiceConverter_Tests" */;
+			buildPhases = (
+				B4D6039E5538A5F395D4D5CE8AEF476E /* Headers */,
+				7922B127657923F928BEF793C9274BDD /* Sources */,
+				F5A8E061DB9079691E466437E82F8F9E /* Frameworks */,
+				C7D7382063A78289E585F450EA094ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F1136E6470DA24686243BC836DABD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLVoiceConverter_Tests";
+			productName = "Pods-WLVoiceConverter_Tests";
+			productReference = 86F3A9D8F7D4BD50D223FA5715B36380 /* Pods_WLVoiceConverter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE0086548DFAF6C740B1255E27E0DB2B /* WLVoiceConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ACBE6AE7216170947384DCBF61A785 /* Build configuration list for PBXNativeTarget "WLVoiceConverter" */;
+			buildPhases = (
+				326B5F400FF79DB91023A3F5130FD307 /* Headers */,
+				F818592360A5394613D924F81045FC3F /* Sources */,
+				031CE4E672A0935C220ED7B702B24CFE /* Frameworks */,
+				0BFD702BF04BEC6002EA8DDD8FD85DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLVoiceConverter;
+			productName = WLVoiceConverter;
+			productReference = E610288D2260C118FCF5BB9B0FD5B4BB /* WLVoiceConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F24B744D202D2393FCA1B0D519773A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8272C24DB842DC758976264560B0AC7F /* Pods-WLVoiceConverter_Example */,
+				B52028F79AF930301AEEE93CEE5C809F /* Pods-WLVoiceConverter_Tests */,
+				DE0086548DFAF6C740B1255E27E0DB2B /* WLVoiceConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BFD702BF04BEC6002EA8DDD8FD85DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B121EEC275FD34A61A606CCD364A1551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D7382063A78289E585F450EA094ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48957B5F49A5C5249484522168CA8A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE8E9F35900AF13ECE9AF664D76B38 /* Pods-WLVoiceConverter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922B127657923F928BEF793C9274BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEA0110B6E1207925A708A30C05E880 /* Pods-WLVoiceConverter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F818592360A5394613D924F81045FC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B719C49A64B164443B1971FE9B4D8B6 /* amrFileCodec.mm in Sources */,
+				3D42A26B32C05AFF4013878C27138105 /* libopencore-amrnb.a in Sources */,
+				F52A67245D5EF2EC657C753A450BBD67 /* libopencore-amrwb.a in Sources */,
+				0453725298B286AB1D106F01403C2340 /* wav.mm in Sources */,
+				B0F9E43AF7D2E9CCF956A55899D3A83E /* WLVoiceConverter-dummy.m in Sources */,
+				7BC96E166594673FACF32939C8B5F9AD /* WLVoiceConverter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C68DE7DCE045F12B972F1087228E60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLVoiceConverter;
+			target = DE0086548DFAF6C740B1255E27E0DB2B /* WLVoiceConverter */;
+			targetProxy = DD10A23CD106AFD609E70EC2F4FCA52E /* PBXContainerItemProxy */;
+		};
+		C6F1136E6470DA24686243BC836DABD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WLVoiceConverter_Example";
+			target = 8272C24DB842DC758976264560B0AC7F /* Pods-WLVoiceConverter_Example */;
+			targetProxy = C2E430CB30714F98BD29F17F35E58CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0079E95A1AF135F6F4C47DE4253C3DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC48FA6AB8BF68535ACC4015A20E624 /* Pods-WLVoiceConverter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVoiceConverter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVoiceConverter_Tests/Pods-WLVoiceConverter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		502756A6E5761C4CCC365CBFECFA6074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1FAC2EE4A278CAB5325332A13B1C92 /* Pods-WLVoiceConverter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVoiceConverter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVoiceConverter_Example/Pods-WLVoiceConverter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5BD02F470DA38746AD700D9BD0D1DFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLVoiceConverter/WLVoiceConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLVoiceConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLVoiceConverter/WLVoiceConverter.modulemap";
+				PRODUCT_MODULE_NAME = WLVoiceConverter;
+				PRODUCT_NAME = WLVoiceConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D85ED52F09C4213855E451A6A4AA458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFFE1F2B1429D520351FB808362036C /* Pods-WLVoiceConverter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVoiceConverter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVoiceConverter_Example/Pods-WLVoiceConverter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8778D28B887C612F7F5FB47FE5BA07B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLVoiceConverter/WLVoiceConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLVoiceConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLVoiceConverter/WLVoiceConverter.modulemap";
+				PRODUCT_MODULE_NAME = WLVoiceConverter;
+				PRODUCT_NAME = WLVoiceConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A155333734D22FDFF39E99BB859EED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C1AD80001E33673C57699453C60C9B /* Pods-WLVoiceConverter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLVoiceConverter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLVoiceConverter_Tests/Pods-WLVoiceConverter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B4C93E84CA30AA897B420530FB9E4 /* Build configuration list for PBXNativeTarget "Pods-WLVoiceConverter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D85ED52F09C4213855E451A6A4AA458 /* Debug */,
+				502756A6E5761C4CCC365CBFECFA6074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4ACBE6AE7216170947384DCBF61A785 /* Build configuration list for PBXNativeTarget "WLVoiceConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD02F470DA38746AD700D9BD0D1DFF1 /* Debug */,
+				8778D28B887C612F7F5FB47FE5BA07B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70467B991613AE22F539FE43EFF75C8 /* Build configuration list for PBXNativeTarget "Pods-WLVoiceConverter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A155333734D22FDFF39E99BB859EED27 /* Debug */,
+				0079E95A1AF135F6F4C47DE4253C3DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

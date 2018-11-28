@@ -1,0 +1,6 @@
+framework module Pods_WLVoiceConverter_Example {
+  umbrella header "Pods-WLVoiceConverter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

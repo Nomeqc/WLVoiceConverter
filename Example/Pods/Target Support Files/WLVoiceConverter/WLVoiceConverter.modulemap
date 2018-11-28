@@ -1,0 +1,6 @@
+framework module WLVoiceConverter {
+  umbrella header "WLVoiceConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
