@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLVoiceConverter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'WLVoiceConverter'
 
 # This description is used to generate tags and improve search results.
@@ -22,15 +22,17 @@ A Voice Converter between AMR format and WAV format
                        DESC
 
   s.homepage         = 'https://github.com/Nomeqc/WLVoiceConverter'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nomeqc' => 'nomeqc@gmail.com' }
   s.source           = { :git => 'https://github.com/Nomeqc/WLVoiceConverter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
-  s.public_header_files = 'WLVoiceConverter/Classes/**/*.h'
+  s.public_header_files = 'WLVoiceConverter/Classes/*.h'
   s.source_files = 'WLVoiceConverter/Classes/**/*'
   s.vendored_libraries = 'WLVoiceConverter/Classes/**/*.a'
+  s.xcconfig = {
+      'VALID_ARCHS' =>  'arm64 x86_64'
+  }
+  s.library = 'c++'
   
 end
