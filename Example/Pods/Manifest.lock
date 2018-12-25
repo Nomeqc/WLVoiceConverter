@@ -1,16 +1,16 @@
 PODS:
-  - WLVoiceConverter (0.1.0)
+  - WLVoiceConverter (0.1.1)
 
 DEPENDENCIES:
-  - WLVoiceConverter (from `../`)
+  - WLVoiceConverter
 
-EXTERNAL SOURCES:
-  WLVoiceConverter:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WLVoiceConverter
 
 SPEC CHECKSUMS:
-  WLVoiceConverter: 7190536a8a3eafb322a20bfaf7d5b717efe65b7e
+  WLVoiceConverter: 226ad05d855cc67fa06da73fac04657bf3e646f3
 
-PODFILE CHECKSUM: 3a8441bc73fb66efb35d07b143e774b78912387c
+PODFILE CHECKSUM: cd37013d1bc419d47a2e9122686017a0571d0dcf
 
 COCOAPODS: 1.5.3

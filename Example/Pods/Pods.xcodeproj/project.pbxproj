@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0453725298B286AB1D106F01403C2340 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */; };
 		0CDE0C36F95BAA09AB721082B0641419 /* Pods-WLVoiceConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCEF4643AB955B8047AC9BEB5BBE612 /* Pods-WLVoiceConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E3F9EBE277DBA6EA33AFAEA66DED345 /* Pods-WLVoiceConverter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96394FF0E2B0FF34724ACA8066FF7681 /* Pods-WLVoiceConverter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27406B02730EBF2F6D0F284505B602BA /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B13FF0256055B2E967D8E56312C07D3 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDDD18ED01632159CB7CC4F16761CB9 /* interf_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35D761BCB4998BEF1F1C9BF0971D314B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3D42A26B32C05AFF4013878C27138105 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = 04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */; };
 		423B70073FB8F4F82547EF3C686FF702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		54423F84FAA049990B0A14A45D4C7FBB /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4813A8BE30C15763DE0EC3477EC403DB /* WLVoiceConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02852FC90A8009969500EB25E62D1E6B /* WLVoiceConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A175FA552A89C70122E83DE40B0FB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6B719C49A64B164443B1971FE9B4D8B6 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */; };
-		6F456DD916E465FDA248DEE54C04ABE8 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BC96E166594673FACF32939C8B5F9AD /* WLVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */; };
-		91E18FE6D222964CDAFF3E4E649AA7F2 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A39CEC652F97A19A1190EA3ED4E97D1 /* WLVoiceConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0F9E43AF7D2E9CCF956A55899D3A83E /* WLVoiceConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */; };
-		BB8102DBE50C3952A2E77B0432DBDE19 /* WLVoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631EEFB09B42184CF527F1DFCB60A40A /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = A13C90AF2D961B95D54E17076E977974 /* wav.mm */; };
+		7128B7024E1F3B22E435812D21CFCB96 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A0D2D822038667C06ACE70DCF3BB84 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		715953E1DF12E58D5BCA7323BD52C850 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA95A19FA90C3184F0C9EDBE41A8F08F /* amrFileCodec.mm */; };
+		7FAFD2436AAD5815ADE63EC3DDEA2378 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = CED4C23B494F4D3EA4D103160589A138 /* libopencore-amrnb.a */; };
+		89EB3AB1E048473CBC07E363660ABD6E /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B6A41F68C7EDE5115BB35EF824D9E2 /* wav.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E0FF9FAD9E3799638437D8FBA6C5CC0 /* WLVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB61F0A611C2A7895E79A1276DFA /* WLVoiceConverter.mm */; };
+		8F5C5858E7DBDA7B9C4D7FBB357F8927 /* WLVoiceConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E45F09B153A963E5BDE759717980048 /* WLVoiceConverter-dummy.m */; };
+		AD6EEFB9992D0E42E5A7A8C5E71D12B6 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1D5D59D5C0FC6ECB7A5E1C07F6CFB3 /* interf_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B28AC4AE718314A675D26792072FE028 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BA7BD61A9CE7A8BA45C55D0950C86 /* libopencore-amrwb.a */; };
+		BCC99181C3162E768A6C0A74E17CDCC2 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = F15C53E19D9E50CA972FD49ECEB4CBF9 /* if_rom.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BDEA0110B6E1207925A708A30C05E880 /* Pods-WLVoiceConverter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2293248527CA5F26C7C7C96072CB882 /* Pods-WLVoiceConverter_Tests-dummy.m */; };
 		D1AE8E9F35900AF13ECE9AF664D76B38 /* Pods-WLVoiceConverter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2FFA4F518690C8C5DD1B836B389C1 /* Pods-WLVoiceConverter_Example-dummy.m */; };
-		E151929A1F0A6DE93E1AA6B6317EDC72 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87536CE596441938F8AA09F0647A62BF /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3CC906B757E7591122FA5CC0DA9C38A /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F52A67245D5EF2EC657C753A450BBD67 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */; };
+		D5AE22FBAF00EFB8224B90A99898CA29 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 134872E24445892EA0E3F65AA3596557 /* dec_if.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC6873F6E44D764949F09AEF444FD838 /* WLVoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CAD54B2D3A5DF7A54D1CF46CC5829D /* WLVoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,52 +48,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		02852FC90A8009969500EB25E62D1E6B /* WLVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
 		04D6F68E96A17FF922C2C9E7FC8324AF /* Pods-WLVoiceConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLVoiceConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EFFE1F2B1429D520351FB808362036C /* Pods-WLVoiceConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1E6F14512DB983D226695C76BA796ED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
-		3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		134872E24445892EA0E3F65AA3596557 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = "WLVoiceConverter/Classes/include/opencore-amrwb/dec_if.h"; sourceTree = "<group>"; };
+		2977FB61F0A611C2A7895E79A1276DFA /* WLVoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WLVoiceConverter.mm; path = WLVoiceConverter/Classes/WLVoiceConverter.mm; sourceTree = "<group>"; };
+		2A4BA7BD61A9CE7A8BA45C55D0950C86 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "WLVoiceConverter/Classes/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		2E1D5D59D5C0FC6ECB7A5E1C07F6CFB3 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = "WLVoiceConverter/Classes/include/opencore-amrnb/interf_enc.h"; sourceTree = "<group>"; };
+		38CAD54B2D3A5DF7A54D1CF46CC5829D /* WLVoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLVoiceConverter.h; path = WLVoiceConverter/Classes/WLVoiceConverter.h; sourceTree = "<group>"; };
+		438B2F453EDA1050A26F946E8FB56A47 /* WLVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
+		484C10017DB5F46F6CCF1BB3D929EA7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC48FA6AB8BF68535ACC4015A20E624 /* Pods-WLVoiceConverter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
 		55C1AD80001E33673C57699453C60C9B /* Pods-WLVoiceConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
-		61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLVoiceConverter-dummy.m"; sourceTree = "<group>"; };
-		6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
-		6EE89E4206E069F4F8545D26E1F0933C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
+		6D66B0140A7023DBF682B01FCF38996A /* WLVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLVoiceConverter.modulemap; sourceTree = "<group>"; };
+		6E45F09B153A963E5BDE759717980048 /* WLVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLVoiceConverter-dummy.m"; sourceTree = "<group>"; };
+		72A0D2D822038667C06ACE70DCF3BB84 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amrFileCodec.h; path = WLVoiceConverter/Classes/amrwapper/amrFileCodec.h; sourceTree = "<group>"; };
 		7A606CE2A3297E66EB3781FCEF5D3AC7 /* Pods_WLVoiceConverter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLVoiceConverter_Example.framework; path = "Pods-WLVoiceConverter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCEF4643AB955B8047AC9BEB5BBE612 /* Pods-WLVoiceConverter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLVoiceConverter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		86F3A9D8F7D4BD50D223FA5715B36380 /* Pods_WLVoiceConverter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLVoiceConverter_Tests.framework; path = "Pods-WLVoiceConverter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87536CE596441938F8AA09F0647A62BF /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		8B70390193BA2A464E3EDE9187E3DB59 /* WLVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLVoiceConverter.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		953E36F69C937BB4A1212EF3B5ABA65A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		96394FF0E2B0FF34724ACA8066FF7681 /* Pods-WLVoiceConverter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLVoiceConverter_Example-umbrella.h"; sourceTree = "<group>"; };
-		98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		99B6A41F68C7EDE5115BB35EF824D9E2 /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wav.h; path = WLVoiceConverter/Classes/amrwapper/wav.h; sourceTree = "<group>"; };
 		A0D7170E68F8B827FD106F837416E9BD /* Pods-WLVoiceConverter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A13C90AF2D961B95D54E17076E977974 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = wav.mm; path = WLVoiceConverter/Classes/amrwapper/wav.mm; sourceTree = "<group>"; };
 		B2293248527CA5F26C7C7C96072CB882 /* Pods-WLVoiceConverter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLVoiceConverter_Tests-dummy.m"; sourceTree = "<group>"; };
 		B4E096239C40FA282634BDC21646EDCD /* Pods-WLVoiceConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLVoiceConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WLVoiceConverter.mm; path = WLVoiceConverter/Classes/WLVoiceConverter.mm; sourceTree = "<group>"; };
 		C358CED306D1A14A880FB33D4C6FC306 /* Pods-WLVoiceConverter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Tests-resources.sh"; sourceTree = "<group>"; };
 		C67D7C002DD31825442DC5D18F006E71 /* Pods-WLVoiceConverter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVoiceConverter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA1FAC2EE4A278CAB5325332A13B1C92 /* Pods-WLVoiceConverter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLVoiceConverter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CED4C23B494F4D3EA4D103160589A138 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "WLVoiceConverter/Classes/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		CFB21AAD9639871C5FFBD519864FD23C /* Pods-WLVoiceConverter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLVoiceConverter_Tests.modulemap"; sourceTree = "<group>"; };
 		D2FAC70A57197DA0F1FB7FD76165EACC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7683D0CBD7C37A24225BD7139C1B1E5 /* Pods-WLVoiceConverter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLVoiceConverter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLVoiceConverter.h; path = WLVoiceConverter/Classes/WLVoiceConverter.h; sourceTree = "<group>"; };
+		DA95A19FA90C3184F0C9EDBE41A8F08F /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = amrFileCodec.mm; path = WLVoiceConverter/Classes/amrwapper/amrFileCodec.mm; sourceTree = "<group>"; };
+		DFDDD18ED01632159CB7CC4F16761CB9 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = "WLVoiceConverter/Classes/include/opencore-amrnb/interf_dec.h"; sourceTree = "<group>"; };
+		E00F2CB308FACBF32FE9EA3D3C2064FD /* WLVoiceConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLVoiceConverter.xcconfig; sourceTree = "<group>"; };
 		E610288D2260C118FCF5BB9B0FD5B4BB /* WLVoiceConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLVoiceConverter.framework; path = WLVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7AF48F813FB584B1566AB2B7603761 /* Pods-WLVoiceConverter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLVoiceConverter_Example.modulemap"; sourceTree = "<group>"; };
 		EAC2FFA4F518690C8C5DD1B836B389C1 /* Pods-WLVoiceConverter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLVoiceConverter_Example-dummy.m"; sourceTree = "<group>"; };
 		EAFC65E418ED706778A5F2637E1642A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F64ACE48648AF83C2E1D39AC8774C034 /* WLVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
-		F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLVoiceConverter.xcconfig; sourceTree = "<group>"; };
-		F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		F15C53E19D9E50CA972FD49ECEB4CBF9 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = "WLVoiceConverter/Classes/include/opencore-amrwb/if_rom.h"; sourceTree = "<group>"; };
 		FBC5E6ADF4DC91B113FAAC27245DD0B2 /* Pods-WLVoiceConverter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FDEB08CE6247C0611C94B020414D7D81 /* Pods-WLVoiceConverter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLVoiceConverter_Example-resources.sh"; sourceTree = "<group>"; };
-		FEDEB8B8AD9F9E01BF36EC88D5631A96 /* WLVoiceConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLVoiceConverter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,45 +121,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0021EBDB770F3BF6F8FBC80B561C41C0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1E6F14512DB983D226695C76BA796ED6 /* LICENSE */,
-				953E36F69C937BB4A1212EF3B5ABA65A /* README.md */,
-				FEDEB8B8AD9F9E01BF36EC88D5631A96 /* WLVoiceConverter.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1398105059AE338A8A3196C7930D993B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6EE89E4206E069F4F8545D26E1F0933C /* Info.plist */,
-				8B70390193BA2A464E3EDE9187E3DB59 /* WLVoiceConverter.modulemap */,
-				F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */,
-				61C74374FDEF414377CA16BD171D962D /* WLVoiceConverter-dummy.m */,
-				F64ACE48648AF83C2E1D39AC8774C034 /* WLVoiceConverter-prefix.pch */,
-				714177E6963E5A7F04050DD40586DBA5 /* WLVoiceConverter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WLVoiceConverter";
-			sourceTree = "<group>";
-		};
-		2ECB7E0B0C2C0184969DD8A12AE99A08 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3964A439EF0434900E750EA0F5DFCFE1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				51B1E216B172626B8913A6709966C416 /* WLVoiceConverter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,40 +129,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4F121BADBA62E1E758C8C3D4EEAD1733 /* include */ = {
+		4B66F97C79C0F9BF3337BDA0AEA909F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				587303408FA9A863E59D004B21DCA9B7 /* opencore-amrnb */,
-				687DC00A90391F332F2E46D236C42DB8 /* opencore-amrwb */,
+				484C10017DB5F46F6CCF1BB3D929EA7B /* Info.plist */,
+				6D66B0140A7023DBF682B01FCF38996A /* WLVoiceConverter.modulemap */,
+				E00F2CB308FACBF32FE9EA3D3C2064FD /* WLVoiceConverter.xcconfig */,
+				6E45F09B153A963E5BDE759717980048 /* WLVoiceConverter-dummy.m */,
+				438B2F453EDA1050A26F946E8FB56A47 /* WLVoiceConverter-prefix.pch */,
+				02852FC90A8009969500EB25E62D1E6B /* WLVoiceConverter-umbrella.h */,
 			);
-			name = include;
-			path = WLVoiceConverter/Classes/include;
-			sourceTree = "<group>";
-		};
-		51B1E216B172626B8913A6709966C416 /* WLVoiceConverter */ = {
-			isa = PBXGroup;
-			children = (
-				DEB7F677F4A3D10B45AE203A42131EAD /* WLVoiceConverter.h */,
-				B8C4192D3033969BA1AA6B666FD7EE94 /* WLVoiceConverter.mm */,
-				9E22EDB89BE2286F55A3AFD2467F231A /* amrwapper */,
-				2ECB7E0B0C2C0184969DD8A12AE99A08 /* Frameworks */,
-				4F121BADBA62E1E758C8C3D4EEAD1733 /* include */,
-				EF42245F78BF81BA4093244BBA7AB62C /* lib */,
-				0021EBDB770F3BF6F8FBC80B561C41C0 /* Pod */,
-				1398105059AE338A8A3196C7930D993B /* Support Files */,
-			);
-			name = WLVoiceConverter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		587303408FA9A863E59D004B21DCA9B7 /* opencore-amrnb */ = {
-			isa = PBXGroup;
-			children = (
-				529CF4E50BFD50E46CD005ACB32E0B53 /* interf_dec.h */,
-				87536CE596441938F8AA09F0647A62BF /* interf_enc.h */,
-			);
-			name = "opencore-amrnb";
-			path = "opencore-amrnb";
+			name = "Support Files";
+			path = "../Target Support Files/WLVoiceConverter";
 			sourceTree = "<group>";
 		};
 		5F030A74BC1016E093E4CD52A620EEBF /* Pods-WLVoiceConverter_Example */ = {
@@ -235,16 +171,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		687DC00A90391F332F2E46D236C42DB8 /* opencore-amrwb */ = {
-			isa = PBXGroup;
-			children = (
-				98AF522AF9D87049C13CC26DE8A20713 /* dec_if.h */,
-				3CB437EE0E50CA38A31B3373A6D094F9 /* if_rom.h */,
-			);
-			name = "opencore-amrwb";
-			path = "opencore-amrwb";
-			sourceTree = "<group>";
-		};
 		6F0A82F1C6C0CB80701B39AFF18CFA66 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +178,28 @@
 				7D32576FDA4CD7EFC6D296808ED6F75E /* Pods-WLVoiceConverter_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71ED2F11FF651E69D877E3BE64CC600A /* WLVoiceConverter */ = {
+			isa = PBXGroup;
+			children = (
+				72A0D2D822038667C06ACE70DCF3BB84 /* amrFileCodec.h */,
+				DA95A19FA90C3184F0C9EDBE41A8F08F /* amrFileCodec.mm */,
+				134872E24445892EA0E3F65AA3596557 /* dec_if.h */,
+				F15C53E19D9E50CA972FD49ECEB4CBF9 /* if_rom.h */,
+				DFDDD18ED01632159CB7CC4F16761CB9 /* interf_dec.h */,
+				2E1D5D59D5C0FC6ECB7A5E1C07F6CFB3 /* interf_enc.h */,
+				CED4C23B494F4D3EA4D103160589A138 /* libopencore-amrnb.a */,
+				2A4BA7BD61A9CE7A8BA45C55D0950C86 /* libopencore-amrwb.a */,
+				99B6A41F68C7EDE5115BB35EF824D9E2 /* wav.h */,
+				A13C90AF2D961B95D54E17076E977974 /* wav.mm */,
+				38CAD54B2D3A5DF7A54D1CF46CC5829D /* WLVoiceConverter.h */,
+				2977FB61F0A611C2A7895E79A1276DFA /* WLVoiceConverter.mm */,
+				A3DC173AF4C27C149425EB20CE48CA43 /* Frameworks */,
+				4B66F97C79C0F9BF3337BDA0AEA909F7 /* Support Files */,
+			);
+			name = WLVoiceConverter;
+			path = WLVoiceConverter;
 			sourceTree = "<group>";
 		};
 		7D32576FDA4CD7EFC6D296808ED6F75E /* Pods-WLVoiceConverter_Tests */ = {
@@ -276,23 +224,18 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3964A439EF0434900E750EA0F5DFCFE1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CBA7059D864FB66FC70D1452F5866200 /* Pods */,
 				5F24B744D202D2393FCA1B0D519773A5 /* Products */,
 				6F0A82F1C6C0CB80701B39AFF18CFA66 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E22EDB89BE2286F55A3AFD2467F231A /* amrwapper */ = {
+		A3DC173AF4C27C149425EB20CE48CA43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F795955C4B94D3A64253BF4A48EA2504 /* amrFileCodec.h */,
-				F6A4BE99A7FC00F2555DB4EE0671F5FA /* amrFileCodec.mm */,
-				2A925DCAAC75CB2AF9D947CA823EA9CD /* wav.h */,
-				588CB11DAA1A491B03D8892BBD1AAB9F /* wav.mm */,
 			);
-			name = amrwapper;
-			path = WLVoiceConverter/Classes/amrwapper;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -303,14 +246,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF42245F78BF81BA4093244BBA7AB62C /* lib */ = {
+		CBA7059D864FB66FC70D1452F5866200 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04AB97F4C0BC6E445DC6899123516FFD /* libopencore-amrnb.a */,
-				6990FB0DCC30146540F65E7A3D08AE32 /* libopencore-amrwb.a */,
+				71ED2F11FF651E69D877E3BE64CC600A /* WLVoiceConverter */,
 			);
-			name = lib;
-			path = WLVoiceConverter/Classes/lib;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,18 +265,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		326B5F400FF79DB91023A3F5130FD307 /* Headers */ = {
+		4F89ADE31E0344F1A1BE8C9483F30360 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F456DD916E465FDA248DEE54C04ABE8 /* amrFileCodec.h in Headers */,
-				E3CC906B757E7591122FA5CC0DA9C38A /* dec_if.h in Headers */,
-				54423F84FAA049990B0A14A45D4C7FBB /* if_rom.h in Headers */,
-				27406B02730EBF2F6D0F284505B602BA /* interf_dec.h in Headers */,
-				E151929A1F0A6DE93E1AA6B6317EDC72 /* interf_enc.h in Headers */,
-				91E18FE6D222964CDAFF3E4E649AA7F2 /* wav.h in Headers */,
-				9A39CEC652F97A19A1190EA3ED4E97D1 /* WLVoiceConverter-umbrella.h in Headers */,
-				BB8102DBE50C3952A2E77B0432DBDE19 /* WLVoiceConverter.h in Headers */,
+				7128B7024E1F3B22E435812D21CFCB96 /* amrFileCodec.h in Headers */,
+				D5AE22FBAF00EFB8224B90A99898CA29 /* dec_if.h in Headers */,
+				BCC99181C3162E768A6C0A74E17CDCC2 /* if_rom.h in Headers */,
+				2B13FF0256055B2E967D8E56312C07D3 /* interf_dec.h in Headers */,
+				AD6EEFB9992D0E42E5A7A8C5E71D12B6 /* interf_enc.h in Headers */,
+				89EB3AB1E048473CBC07E363660ABD6E /* wav.h in Headers */,
+				4813A8BE30C15763DE0EC3477EC403DB /* WLVoiceConverter-umbrella.h in Headers */,
+				DC6873F6E44D764949F09AEF444FD838 /* WLVoiceConverter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +333,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4ACBE6AE7216170947384DCBF61A785 /* Build configuration list for PBXNativeTarget "WLVoiceConverter" */;
 			buildPhases = (
-				326B5F400FF79DB91023A3F5130FD307 /* Headers */,
-				F818592360A5394613D924F81045FC3F /* Sources */,
+				4F89ADE31E0344F1A1BE8C9483F30360 /* Headers */,
+				DC42B1582E64402CE0CB53790F821ED3 /* Sources */,
 				031CE4E672A0935C220ED7B702B24CFE /* Frameworks */,
 				0BFD702BF04BEC6002EA8DDD8FD85DF0 /* Resources */,
 			);
@@ -475,16 +416,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F818592360A5394613D924F81045FC3F /* Sources */ = {
+		DC42B1582E64402CE0CB53790F821ED3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B719C49A64B164443B1971FE9B4D8B6 /* amrFileCodec.mm in Sources */,
-				3D42A26B32C05AFF4013878C27138105 /* libopencore-amrnb.a in Sources */,
-				F52A67245D5EF2EC657C753A450BBD67 /* libopencore-amrwb.a in Sources */,
-				0453725298B286AB1D106F01403C2340 /* wav.mm in Sources */,
-				B0F9E43AF7D2E9CCF956A55899D3A83E /* WLVoiceConverter-dummy.m in Sources */,
-				7BC96E166594673FACF32939C8B5F9AD /* WLVoiceConverter.mm in Sources */,
+				715953E1DF12E58D5BCA7323BD52C850 /* amrFileCodec.mm in Sources */,
+				7FAFD2436AAD5815ADE63EC3DDEA2378 /* libopencore-amrnb.a in Sources */,
+				B28AC4AE718314A675D26792072FE028 /* libopencore-amrwb.a in Sources */,
+				631EEFB09B42184CF527F1DFCB60A40A /* wav.mm in Sources */,
+				8F5C5858E7DBDA7B9C4D7FBB357F8927 /* WLVoiceConverter-dummy.m in Sources */,
+				8E0FF9FAD9E3799638437D8FBA6C5CC0 /* WLVoiceConverter.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +645,7 @@
 		};
 		5BD02F470DA38746AD700D9BD0D1DFF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */;
+			baseConfigurationReference = E00F2CB308FACBF32FE9EA3D3C2064FD /* WLVoiceConverter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -767,7 +708,7 @@
 		};
 		8778D28B887C612F7F5FB47FE5BA07B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F77F0C51403EF4B8A930DC141C532A9A /* WLVoiceConverter.xcconfig */;
+			baseConfigurationReference = E00F2CB308FACBF32FE9EA3D3C2064FD /* WLVoiceConverter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

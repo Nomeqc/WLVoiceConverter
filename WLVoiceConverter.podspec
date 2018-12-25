@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLVoiceConverter'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'WLVoiceConverter'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,7 @@ A Voice Converter between AMR format and WAV format
   s.xcconfig = {
       'VALID_ARCHS' =>  'arm64 x86_64'
   }
+  s.compiler_flags = '-fembed-bitcode'
   s.library = 'c++'
   
 end
